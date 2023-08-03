@@ -1,19 +1,16 @@
-import React from 'react'
+import React from "react";
 
 const Home = () => {
   return (
     <section>
-      <div className='desktop-only'>
+      <div>
         <h1>Akketza</h1>
-        <h2 className='desktop-only'>
-          Highly creative Argentine front-end developer
-        </h2>
-        <hr className='line' />
-      </div >
-
+        <hr className="line2" />
+        <h2>Highly creative Argentine front-end developer</h2>
+        <hr className="line" />
+      </div>
     </section>
+  );
+};
 
-  )
-}
-
-export default Home
+export default Home;
